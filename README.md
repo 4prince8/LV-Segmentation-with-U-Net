@@ -79,7 +79,7 @@ LV-Segmentation-with-U-Net/
 - `README.md`: This file.
 
 ## Results
-The model achieved a Mean Intersection over Union (IoU) of 0.918 on the test data, demonstrating its high accuracy and effectiveness. Below are some sample results:
+The model achieved a Mean Intersection over Union (IoU) of 91.8% on the test data, demonstrating its high accuracy and effectiveness. Below are some sample results:
 
 ![Sample Result](Sample_Results/output.png)
 ![Sample Result](Sample_Results/output2.png)
