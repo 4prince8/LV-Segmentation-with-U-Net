@@ -1,9 +1,10 @@
 # LV Segmentation with U-Net
 
-This project focuses on the segmentation of the Left Ventricle (LV) in medical images using a U-Net model, a type of convolutional neural network designed for image segmentation tasks. The goal is to accurately identify and delineate the LV region in cardiac images, which is crucial for various diagnostic and therapeutic applications. By leveraging the U-Net architecture, this notebook guides you through the entire process, from data loading and preprocessing to model training, evaluation, and visualization of results.
+This project focuses on the segmentation of the Left Ventricle (LV) in medical images using a U-Net model, a type of convolutional neural network designed for image segmentation tasks. The goal is to accurately identify and delineate the LV region in cardiac images, which is crucial for various diagnostic and therapeutic applications. By leveraging the U-Net architecture, this [notebook](LV_Segmentation.ipynb) guides you through the entire process, from data loading and preprocessing to model training, evaluation, and visualization of results.
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
@@ -12,10 +13,10 @@ This project focuses on the segmentation of the Left Ventricle (LV) in medical i
 - [License](#license)
 
 ## Introduction
-This notebook demonstrates the process of Left Ventricle (LV) segmentation using a U-Net model. The steps include:
+[This notebook](LV_Segmentation.ipynb) demonstrates the process of Left Ventricle (LV) segmentation using a U-Net model. The steps include:
 
 1. **Mounting Google Drive**: Accessing the dataset stored in Google Drive.
-2. **Cloning the Repository**: Downloading the necessary code and data from a GitHub repository.
+2. **Cloning the Repository**: Downloading the necessary code and data from a [GitHub repository](https://github.com/alandgabriel/LV-Segmentation-with-U-Net).
 3. **Installing Packages**: Installing required Python packages for segmentation models.
 4. **Setting Environment Variables**: Configuring environment variables for TensorFlow Keras.
 5. **Importing Libraries**: Importing essential libraries for data processing, model building, and visualization.
@@ -27,6 +28,13 @@ This notebook demonstrates the process of Left Ventricle (LV) segmentation using
 11. **Testing on Random Images**: Testing the model on random images from the validation dataset and visualizing the results.
 
 **Notably, the model achieved a Mean Intersection over Union (IoU) of 91.8% on the test data, demonstrating its high accuracy and effectiveness.**
+
+## Dataset
+The dataset that I have used for this project is located in this [GitHub repository](https://github.com/alandgabriel/LV-Segmentation-with-U-Net), and you can use the following command to get it:
+
+```bash
+git clone https://github.com/alandgabriel/LV-Segmentation-with-U-Net.git
+```
 
 ## Installation
 To run this notebook, you need to have Python and the following packages installed:
@@ -69,7 +77,7 @@ LV-Segmentation-with-U-Net/
 ├── DATA/
 │   ├── frames/
 │   └── masks/
-├── LV_Segmentation_with_U_Net.ipynb
+├── LV_Segmentation.ipynb
 └── README.md
 ```
 
